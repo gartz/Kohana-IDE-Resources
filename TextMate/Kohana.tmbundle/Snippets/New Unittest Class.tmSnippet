@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php defined('SYSPATH') OR die('No direct access allowed.');
+/**
+ * ${1:This is a description for my testcase}
+ *
+ * @group ${2:application}
+ * 
+ * @package    ${3:Kohana}
+ * @category   ${4:Tests}
+ * @author     ${PHPDOC_AUTHOR:$TM_FULLNAME}
+ * @author     ${6:$USER} &lt;${7:$TM_AUTHOR_EMAIL}&gt;
+ * @copyright  (c) 2011-2011 $TM_ORGANIZATION_NAME
+ */
+class ${8:${TM_FILENAME/\W/_/g}}Test extends Unittest_TestCase 
+{
+	${9:Your code go here...}
+}</string>
+	<key>name</key>
+	<string>New Unittest Class</string>
+	<key>scope</key>
+	<string>source.php</string>
+	<key>tabTrigger</key>
+	<string>unit</string>
+	<key>uuid</key>
+	<string>E37DDFF0-35C5-4347-8B31-A427D7099576</string>
+</dict>
+</plist>
